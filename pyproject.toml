@@ -1,0 +1,23 @@
+[project]
+name = "recall-v0"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "fastapi>=0.135.3",
+    "google-genai>=1.73.1",
+    "httptools>=0.7.1",
+    "httpx>=0.28.1",
+    "justext>=3.0.2",
+    "nest-asyncio>=1.6.0",
+    "playwright>=1.58.0",
+    "pydantic>=2.12.5",
+    "pydantic-settings>=2.13.1",
+    "readability-lxml>=0.8.4.1",
+    "sqlalchemy>=2.0.49",
+    "trafilatura>=2.0.0",
+    "uvicorn>=0.44.0",
+    "yt-dlp>=2026.3.17",
+]
